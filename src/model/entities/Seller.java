@@ -10,7 +10,7 @@ public class Seller implements Serializable {
 	private Integer id;
 	private String name;
 	private String email;
-	private Date birthDate;
+	private java.util.Date birthDate;
 	private Double baseSalary;
 	
 	private Department department;
